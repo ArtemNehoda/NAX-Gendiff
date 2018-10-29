@@ -1,0 +1,9 @@
+language: node_js
+node_js :
+   - node
+script: 
+- make lint 
+- make test
+addons:
+    codeclimate:
+       repo_token: "05613aefd954c2eb3fd4afc5be12f0f7f291c741"
