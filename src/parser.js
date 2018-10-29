@@ -1,12 +1,11 @@
 import YAML from 'js-yaml';
-// import INI from 'ini';
-import { parseString } from 'iniparser';
+import INI from 'iniparser';
 
 
 const parser = {
   '.json': JSON.parse,
   '.yaml': YAML.safeLoad,
-  '.ini': parseString,
+  '.ini': INI.parseString,
 };
 
 export default (data, exp) => {
