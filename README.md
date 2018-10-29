@@ -2,8 +2,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/9b0aea40356cac255445/maintainability)](https://codeclimate.com/github/ArtemNehoda/project-lvl2-s353/maintainability)
 
 
-install and open help :  https://asciinema.org/a/uR0cENR39Q7tUAn0EqThHL0OE
+install :                https://asciinema.org/a/eOlA5mPiubaWJnbzqn1t8mP0B
 
-install and run:         https://asciinema.org/a/01yw84AedUeegQ2QECgozbUGl
+open help :              https://asciinema.org/a/s8mvvFEnAsf5gzO6DLdiLI2qV
 
-install and run (AST):   https://asciinema.org/a/kcakOgaWAH7AvkAK0Damr4o3e
+run with JSON :          https://asciinema.org/a/6s25mXwshi77Je7434ty4zcBN
+
+run with YAML :          https://asciinema.org/a/WavMqy5tzPXoxRHLM5f9m4FXr
+
+run with INI :           https://asciinema.org/a/p7PQ8kAsRtP3KPoPwQ3WaL2AF
