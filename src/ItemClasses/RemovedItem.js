@@ -1,8 +1,5 @@
-import RemovedRenderer from '../render/renderClasses/RemovedRenderer';
-
-export default class RemovedItem extends RemovedRenderer {
+export default class RemovedItem {
   constructor(value, key) {
-    super();
     this.value = value;
     this.key = key;
   }

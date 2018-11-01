@@ -2,7 +2,7 @@ install :
 	npm install 
 
 start :   
-	npx babel-node -- src/bin/gendiff.js -f raw ./__tests__/__fixtures__/beforefile.ini ./__tests__/__fixtures__/afterfile.ini
+	npx babel-node -- src/bin/gendiff.js -f json  ./__tests__/__fixtures__/beforeASTfile.json ./__tests__/__fixtures__/afterASTfile.json
 
 publish : 
 	npm publish 

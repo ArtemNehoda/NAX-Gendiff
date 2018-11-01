@@ -1,8 +1,5 @@
-import NestedRenderer from '../render/renderClasses/NestedRenderer';
-
-export default class NestedItem extends NestedRenderer {
+export default class NestedItem {
   constructor(value, key) {
-    super();
     this.value = value;
     this.key = key;
   }

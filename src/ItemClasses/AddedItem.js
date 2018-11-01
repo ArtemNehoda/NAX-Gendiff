@@ -1,8 +1,5 @@
-import AddedRenderer from '../render/renderClasses/AddedRenderer';
-
-export default class AddedItem extends AddedRenderer {
+export default class AddedItem {
   constructor(value, key) {
-    super();
     this.value = value;
     this.key = key;
   }

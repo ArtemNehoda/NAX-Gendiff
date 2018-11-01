@@ -1,8 +1,5 @@
-import ChangedRenderer from '../render/renderClasses/ChangedRenderer';
-
-export default class ChangedItem extends ChangedRenderer {
+export default class ChangedItem {
   constructor(beforeValue, afterValue, key) {
-    super();
     this.afterValue = afterValue;
     this.beforeValue = beforeValue;
     this.key = key;

@@ -1,8 +1,5 @@
-import CommonRenderer from '../render/renderClasses/CommonRenderer';
-
-export default class CommonItem extends CommonRenderer {
+export default class CommonItem {
   constructor(value, key) {
-    super();
     this.value = value;
     this.key = key;
   }
