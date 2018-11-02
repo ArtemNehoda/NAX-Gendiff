@@ -9,7 +9,7 @@ const parsers = {
 };
 
 export default (data, exp) => {
-  const parseFunc = parsers[exp];
-  if (!parseFunc) throw new Error(`${exp} is not supported`);
-  return parseFunc(data);
+  const parse = parsers[exp];
+  if (!parse) throw new Error(`${exp} is not supported`);
+  return parse(data);
 };
