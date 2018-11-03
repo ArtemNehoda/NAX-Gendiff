@@ -1,6 +1,6 @@
 import renderRaw from './RawRenderers';
 import renderPlain from './PlainRenderers';
-import renderJson from './JsonRenderers';
+import renderJson from './JsonRender';
 
 const renders = {
   raw: renderRaw,
