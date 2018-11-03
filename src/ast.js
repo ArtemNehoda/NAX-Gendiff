@@ -1,7 +1,7 @@
 import {
   union, has, isObject, isEqual,
 } from 'lodash';
-import items from './ItemClasses';
+import items from './Items';
 
 const makeAst = (beforeObj, afterObj) => {
   const keys = union(Object.keys(beforeObj), Object.keys(afterObj));

@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import { extname } from 'path';
 import parse from './parser';
 import makeAst from './ast';
-import render from './render';
+import render from './renderers';
 
 export default (beforePathFile, afterPathFile, format = 'raw') => {
   const parsedObj1 = parse(readFileSync(beforePathFile, 'utf8'), extname(beforePathFile));
