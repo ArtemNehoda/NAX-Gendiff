@@ -6,5 +6,5 @@ export const renderJSON = (ast) => {
   return stringsArr.reduce((acc, value) => Object.assign(acc, value));
 };
 
-const render = ast => JSON.stringify(renderJSON(ast), null, '\t');
+const render = ast => JSON.stringify(renderJSON(ast));
 export default render;

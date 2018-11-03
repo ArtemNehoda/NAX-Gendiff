@@ -6,11 +6,11 @@ import CommonRenderer from './CommonRenderer';
 import NestedRenderer from './NestedRenderer';
 
 const renderers = {
-  AddedItem(item) { return new AddedRenderer(item); },
-  NestedItem(item) { return new NestedRenderer(item); },
-  RemovedItem(item) { return new RemovedRenderer(item); },
-  CommonItem(item) { return new CommonRenderer(item); },
-  ChangedItem(item) { return new ChangedRenderer(item); },
+  AddedItem: item => new AddedRenderer(item),
+  RemovedItem: item => new RemovedRenderer(item),
+  ChangedItem: item => new ChangedRenderer(item),
+  CommonItem: item => new CommonRenderer(item),
+  NestedItem: item => new NestedRenderer(item),
 };
 
 export default renderers;
