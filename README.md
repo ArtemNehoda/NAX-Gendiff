@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/ArtemNehoda/project-lvl2-s353.svg?branch=master)](https://travis-ci.org/ArtemNehoda/project-lvl2-s353)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9b0aea40356cac255445/maintainability)](https://codeclimate.com/github/ArtemNehoda/project-lvl2-s353/maintainability)
 
+npm install -g naxgendiff
 
 install :                https://asciinema.org/a/eOlA5mPiubaWJnbzqn1t8mP0B
 

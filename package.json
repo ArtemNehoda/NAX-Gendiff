@@ -1,7 +1,7 @@
 {
-  "name": "testgendiff",
-  "version": "1.1.0",
-  "description": "e",
+  "name": "naxgendiff",
+  "version": "1.1.2",
+  "description": "Find difference in two config files.Formats:json,ini,yaml",
   "main": "dist/index.js",
   "scripts": {
     "babel-node": "babel-node",
