@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/ArtemNehoda/NAX-Gendiff.svg?branch=master)](https://travis-ci.org/ArtemNehoda/NAX-Gendiff)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/1cdf3081836b7788feaf/maintainability)](https://codeclimate.com/github/ArtemNehoda/NAX-Gendiff/maintainability)
+
 **Find difference in two config files in format json , ini or yaml.**
 
 ` npm install -g naxgendiff`
