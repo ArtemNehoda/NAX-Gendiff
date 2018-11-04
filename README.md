@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ArtemNehoda/project-lvl2-s353.svg?branch=master)](https://travis-ci.org/ArtemNehoda/project-lvl2-s353)
+[![Build Status](https://travis-ci.org/ArtemNehoda/NAX-Gendiff.svg?branch=master)](https://travis-ci.org/ArtemNehoda/NAX-Gendiff)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9b0aea40356cac255445/maintainability)](https://codeclimate.com/github/ArtemNehoda/project-lvl2-s353/maintainability)
 
 **Find difference in two config files in format json , ini or yaml.**
