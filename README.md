@@ -5,7 +5,7 @@
 
 ` npm install -g naxgendiff`
 
-[open help](https://asciinema.org/a/s8mvvFEnAsf5gzO6DLdiLI2qV)
+<center> [open help](https://asciinema.org/a/s8mvvFEnAsf5gzO6DLdiLI2qV) </center>
 
 [run with JSON](https://asciinema.org/a/6s25mXwshi77Je7434ty4zcBN)
 
